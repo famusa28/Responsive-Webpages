@@ -72,6 +72,11 @@ header {
 }
 
 @media (min-width: 801px) {
+    .content-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     .content-container p {
         margin: 8px;
     }
@@ -79,5 +84,6 @@ header {
     .content-block {
         width: 250px;
         margin: 8px;
+        flex: 1 1 auto;
     }
 }
